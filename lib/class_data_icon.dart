@@ -1,12 +1,15 @@
 import 'package:flutter/material.dart';
 
+// Membuat Class List Icon
 class DataListIcon {
+  // Inisialisasi parameter
   final String namaIcon;
   final IconData icon;
 
   const DataListIcon({required this.namaIcon, required this.icon});
 }
 
+// List Icon dalam bentuk Map
 const List<DataListIcon> icons = <DataListIcon>[
   DataListIcon(namaIcon: 'Halaman Utama', icon: Icons.home),
   DataListIcon(namaIcon: 'Telepon', icon: Icons.phone),

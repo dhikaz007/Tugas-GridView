@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'class_data_icon.dart';
 
+// Membuat class untuk menampilkan Icon
 class ChoiceIcon extends StatelessWidget {
   const ChoiceIcon({super.key, required this.pilihIcon});
 
@@ -13,6 +14,7 @@ class ChoiceIcon extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
+          // Memberi avatar lingkaran pada icon
           CircleAvatar(
               backgroundColor: Colors.blueAccent, child: Icon(pilihIcon.icon)),
         ],

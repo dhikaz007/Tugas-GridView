@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget {
             appBar: AppBar(
               title: const Text(title),
             ),
+            // Menampilkan Icon dengan widget GridView
             body: GridView.count(
                 crossAxisCount: 4,
                 children: List.generate(icons.length, (index) {
